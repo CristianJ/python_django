@@ -95,6 +95,8 @@ DATABASES = {
    }
 }
 
+ALLOWED_HOSTS=['*']
+
 DATABASE_CONNECTION_POOLING = False
 
 
