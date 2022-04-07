@@ -83,12 +83,15 @@ AUTH_USER_MODEL  = 'user_app.Account'
 
 DATABASES = {
    'default':{
-       'ENGINE':'django.db.backends.mysql',
-       'NAME':'bxmzi9ob79zq5n16myxx',
-       'USER':'ursvvogxqdx0nivs',
-       'PASSWORD':'olD17q3Nb45c0DB2ESTO',
-       'HOST':'bxmzi9ob79zq5n16myxx-mysql.services.clever-cloud.com',
-       'PORT':'3306'
+       'ENGINE':'mssql',
+       'NAME':'django',
+       'USER':'dev_cristian',
+       'PASSWORD':'Udla2018*',
+       'HOST':'mssql-75045-0.cloudclusters.net',
+       'PORT':'10767',
+       'OPTIONS':{
+           'driver':'ODBC Driver 17 for SQL Server',
+       }
    }
 }
 
