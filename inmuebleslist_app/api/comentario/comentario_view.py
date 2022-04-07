@@ -17,6 +17,7 @@ class ComentarioList(mixins.ListModelMixin, mixins.CreateModelMixin,generics.Gen
     search_fields=['comentario_user__username','active','texto']
     #throttle_classes=[ComentarioListThrottle]
     #permission_classes=[IsAuthenticated]
+    #hola
     pagination_class=EdificacionPaginationOffset #EdificacionPagination
     serializer_class=ComentarioSerializer
     
