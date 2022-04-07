@@ -83,15 +83,12 @@ AUTH_USER_MODEL  = 'user_app.Account'
 
 DATABASES = {
    'default':{
-       'ENGINE':'mssql',
-       'NAME':'django',
-       'USER':'dev_jcristian',
-       'PASSWORD':'Ecuador2021*',
-       'HOST':'tareasapp.database.windows.net',
-       'PORT':'1433',
-       'OPTIONS':{
-           'driver':'ODBC Driver 17 for SQL Server',
-       }
+       'ENGINE':'django.db.backends.mysql',
+       'NAME':'bxmzi9ob79zq5n16myxx',
+       'USER':'ursvvogxqdx0nivs',
+       'PASSWORD':'olD17q3Nb45c0DB2ESTO',
+       'HOST':'bxmzi9ob79zq5n16myxx-mysql.services.clever-cloud.com',
+       'PORT':'3306'
    }
 }
 
