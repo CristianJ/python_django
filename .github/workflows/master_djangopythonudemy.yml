@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'djangopythonudemy'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_708842B2A1CA4F71B630610C694EF0CA }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_A6A00419CB99479AA5A4FD70A50153FA }}
